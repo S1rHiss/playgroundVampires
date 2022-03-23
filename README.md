@@ -1,40 +1,42 @@
-**Reflectionary NFTs on Avalanche Mainnet**
+**Vampires on Avalanche doing cage fights**
 
-Chained Vampires are 7000 algorithmically generated NFTs, chained on Avalanche network. They have one purpose: hunting AVAX for their owners. How?
-1) 20% Minting Fee Reflections to all Vampire owners!
+Reflections, Royalties and Marketplace fee redistribution is canceled - only useful for superearly minters
 
-If you are among early minters, not only you will amortize minting fee but also your vampire will continue sucking AVAX for you from each minting as long as you hold it.
+Reflection rewards can be approximated by: 
+reward = rr * c * (ln N - ln x)
+rr: Reflection rate
+c: cost to mint
+N: total number of available NFTs
+x: the number of the NFT we are calculating the rewards for
+With 7000 NFTs and a reflection rate of 0.2, we can calculate when the last NFT is minted that can cover it's own cost with reflections:
+x_breakeven = exp(ln 7000 - 1/rr) = 47 <-- super early minters benefit
 
-2) 5% life time royalty to original minter
+5 Generations (rarities):
+Gen0
+Gen1
+Gen2
+Gen3
+Gen4
 
-Vampires care alot about their minter. Each time a vampire is sold, its original minter will get 5% from each sale. Forever.
+Tokenomics:
+Clan Vampires can:
+ - HUNT Human (NFT)
+ - BITE Human to turn them into Slave Vampire being one generation below them
+ - Both will put the Clan Vampire into stasis, it needs $BLUT token to unlock
+ - The amount of $BLUT needed is dependent on the generation
 
-3) 4% marketplace revenue distribution for all vampire owners
+Human:
+ - Can be staked for $BLUT
+ - Is created by the HUNT
+ - Is destroyed by the BITE
 
-Marketplace will open when minting process is complete. From each second hand sale, all holders will get %4 of the revenue.
+Slave Vampire:
+ - Can store $BLUT
+ - Can fight other Slave Vampires in a CAGE FIGHT
+ - Winner takes all $BLUT
+ - Winner has 1% chance to join the clan --> ascend from Slave Vampire to Clan vampire
+ - Loser has a 1% change to be destroyed
 
-Rewards are instantly available to be claimed and given directly as AVAX. So you don’t have to deal with some kind of weird custom token.
-
-There are 6 different vampire races in total. Each race has certain rarity. All vampires benefit from same Tokenomics. Still, some races have extremely rare attributes and DNA! Rarities for each race is as follows:
-
-Each vampire is unique. Some attributes are only available to certain races. Total of 400 different attributes are available for both male and female vampires.
-
-    Countless million possibilities…
-
-Each vampire has born with an unique DNA, unalterable in anyway. This means thatyour vampire may turn humans (or apes) into rarest vampires in near future. This also means that your vampire may win thoughest encounters in the cold metaverse. Rarest vampires also have rarest DNAs
-
-Bite & turn mechanics will be available when minting process is finished. Early minters will benefit from Caged Slave Human Airdrop as well as Blood Bank airdrop which are going to be key factor for creating new generation vampires.
-
-Vampires offer many things for their minters and holders. But one may choose to sell. In that case, extremely rare attributes may be a parameter of the sale price.
-
-There is a chance of <1% for minting a Draxo vampire. Once human, then turned by Dracula himself, a Draxo vampire has 100% chance of creating a Elder+ tier vampire.
-
-Why you should enter the Chained Vampires Clan?
-
-    Low minting fee: 1 AVAX / each Vampire
-    Highest reflection rates.
-    Long term vision to be the most respected Vampire legion of the metaverse.
-    Safely pinned on IPFS. No human can take them away from you!
-
-Minting will start at 11/11/2021 @ 4pm UTC. Many #NFT giveaways and promotions will be announced very soon! Visit our website today and DYOR: https://chainedvampires.com
-wgmi vamps
+Cage fight is inherited concept from ChainedVampires:
+ - By comparing the generation of the two participants each participants receives a part of the number space between 1 and 100
+ - Draw a random number from the 1 to 100 space, the slave vampire having this number is its part is the winner
